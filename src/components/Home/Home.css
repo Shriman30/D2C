@@ -1,0 +1,41 @@
+.page{
+    display: grid;
+    align-items: center;
+    min-height: 80vh;
+    z-index: 1;
+}
+.info h1{
+    font-weight: 700;
+    font-size: 65px;
+    padding-left: 2rem;
+}
+p {
+    color: var(--grey-600);
+    font-size: larger;
+    font-size: 30px;
+    padding-left: 2rem;
+  }
+
+.location{
+    border-radius: 2rem;
+    height: 2rem;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    width: 26rem;
+    font-size: 18px;
+}
+
+.location::placeholder{
+    text-transform: uppercase;
+}
+
+  @media (min-width: 992px) {
+    .page {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1rem;
+    }
+    .main-img {
+      display: block;
+      width: 100%;
+    }
+  }

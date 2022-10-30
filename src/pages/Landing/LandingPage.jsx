@@ -1,6 +1,6 @@
 import React from 'react'
 import './LandingPage.css'
-import ActivitiesNearMe from '../../components/ActivityNearMe/ActivityNearMe'
+import Home from '../../components/Home/Home'
 import UpcomingEvents from '../../components/UpcomingEvents/UpcomingEvents'
 import AboutUs from '../../components/AboutUs/AboutUs'
 import Footer from '../../components/Footer/Footer'
@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer'
 const Landing = () => {
   return (
     <div>
-      <ActivitiesNearMe/>
+      <Home/>
       <UpcomingEvents/>
       <AboutUs/>
       <Footer/>
