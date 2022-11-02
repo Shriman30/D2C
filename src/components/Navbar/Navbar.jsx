@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="nav-container">
-        <header><img src="./favicon.ico" alt="" /></header>
+        <header><img src={require("./D2C Prototype[947].png")} alt="" /></header>
         <div className="menu-btn">
         {/* Implement css for menu button when window size is not wide enough */}
         </div>
@@ -20,7 +20,6 @@ const NavBar = () => {
         </div>
       </div>
       <hr />
-      <p>disconnect to connect</p>
     </div>
   );
 };

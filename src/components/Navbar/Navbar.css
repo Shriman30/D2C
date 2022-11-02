@@ -4,7 +4,6 @@
     top:0;
     height: fit-content;
     z-index: 999;
-    background-color: rgb(233, 239, 239);
     
 }
 
@@ -24,7 +23,7 @@
     margin-top:-4px;
 }
 header{
-    z-index:999;
+    /* z-index:999; */
     position: relative sticky;
     top:0;
     left:0;
@@ -42,33 +41,34 @@ align-items: center;
 padding: 15px 200px;
 transition: 0.5s ease;
 height: 4rem;
-background-color: rgb(233, 239, 239);
+
 }
 
- .navbar .nav-container header{
-color:black;
-font-size: 1.5em;
-font-weight:700;
-text-transform: uppercase;
-text-decoration: none;
-}
+
 
 .navbar .nav-container img{
-    height: 3.5em;
-    padding-top:1rem ;
+    font-size: 1.5em;
+    height: 5.5em;
+    position: absolute;
+    top:0;
+    padding-top:1rem;
+    background: transparent;
+    left:0;
+    margin-left: 2rem;
 }
 
 
 .nav-container .nav{
     position: relative;
-    padding-right: 20rem;
+    padding-right: 16rem;
+    padding-top: 2rem;
 }
 
 .nav-container .nav .nav-items a{
     position: relative;
     color:black;
     font-size: 1em;
-    text-decoration: none;
+    /* text-decoration: none; */
     margin-left:30px;
     transition:0.3s ease;
     font-size: 24px;
