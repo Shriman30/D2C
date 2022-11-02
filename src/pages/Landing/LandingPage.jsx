@@ -7,8 +7,9 @@ import Footer from '../../components/Footer/Footer'
 
 const Landing = () => {
   return (
-    <div>
+    <div className='page-container'>
       <Home/>
+      <hr />
       <UpcomingEvents/>
       <AboutUs/>
       <Footer/>

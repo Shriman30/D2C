@@ -1,17 +1,39 @@
-import React from 'react'
+import React from "react";
 // import { Link } from 'react-router-dom'
-import './Home.css'
-const ActivityNearMe = () => {
-  return (
-    <div className='container page'>
-      <div className="info">
-        <h1 className='banner'>Are You Looking for an Activity?</h1>
-        <p>Join our community to find an activity that best suits your interest.</p>
-        <input className='location' placeholder='Enter your location here'></input>
-      </div>
-      <img src={require("./Screenshot 2022-10-29 235307.png")} alt="homepage1" className='main-img' />
-    </div>
-  )
-}
+import "./Home.css";
 
-export default ActivityNearMe
+const Home = () => {
+  const homeImages = [
+    {
+      id:0,
+      src:'./HOMEPAGE 1.1.png',
+      alt:'Homepage 1',
+    },
+    {
+      id:1,
+      src:'./HOMEPAGE 1.1.png',
+      alt:'Homepage 1',
+    },
+    {
+      id:2,
+      src:'./HOMEPAGE 1.1.png',
+      alt:'Homepage 1',
+    },
+    {
+      id:3,
+      src:'./HOMEPAGE 1.1.png',
+      alt:'Homepage 1',
+    },
+  ]
+  return (
+    <section className="home-container" id="home">
+      <div className="content">
+        <h1>Are you looking for an Activity?</h1>
+        <p>Join our community to find an activity that best suits your interests.</p>
+        <input type="text" className="location-input" placeholder="enter your location here" />
+      </div>
+    </section>
+  );
+};
+
+export default Home;

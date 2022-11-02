@@ -1,3 +1,44 @@
+section{
+    background-color: rgb(233, 239, 239);
+    width: inherit;
+    padding-bottom:5rem;
+}
 .upcomingEvents-container{
-    background-color: green;
+    position: relative;
+    padding-top: 1rem;
+
+}
+
+.upcomingEvents-container .content{
+    padding-left:5rem;
+}
+.upcomingEvents-container .content h1{
+    font-size:50px;
+}
+.upcomingEvents-container .content p{
+    font-size:45px;
+    width: 42rem;
+}
+
+.upcomingEvents-container .content .label-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    width: 12rem;
+    height: 3rem;
+    box-shadow: 0.25px 0.25px;
+    transition: 0.2s ease-in;
+}
+.upcomingEvents-container .content .label-container:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    width: 12rem;
+    height: 3rem;
+    box-shadow: 0.25px 0.25px;
+    transform: scale(1.05);
+}
+.upcomingEvents-container .content .label-container a{
+    font-size: 30px;
+    margin-left:1.25rem;
+    background-color: transparent;
+    border-style: none;
 }

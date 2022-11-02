@@ -1,0 +1,99 @@
+.navbar{
+    position: fixed;
+    position: sticky;
+    top:0;
+    height: fit-content;
+    z-index: 999;
+    background-color: rgb(233, 239, 239);
+    
+}
+
+.navbar hr{
+    width: 92%;
+    height: 1px;
+    background-color: darkgrey;
+}
+
+.navbar p{
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    top:0;
+    left:0;
+    padding-left: 78px;
+    margin-top:-4px;
+}
+header{
+    z-index:999;
+    position: relative sticky;
+    top:0;
+    left:0;
+}
+.nav-container{
+z-index:999;
+position: relative;
+position: sticky;
+top:0;
+left:0;
+/* width: 100%; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 200px;
+transition: 0.5s ease;
+height: 4rem;
+background-color: rgb(233, 239, 239);
+}
+
+ .navbar .nav-container header{
+color:black;
+font-size: 1.5em;
+font-weight:700;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.navbar .nav-container img{
+    height: 3.5em;
+    padding-top:1rem ;
+}
+
+
+.nav-container .nav{
+    position: relative;
+    padding-right: 20rem;
+}
+
+.nav-container .nav .nav-items a{
+    position: relative;
+    color:black;
+    font-size: 1em;
+    text-decoration: none;
+    margin-left:30px;
+    transition:0.3s ease;
+    font-size: 24px;
+
+}
+
+
+.nav-container .nav .nav-items a:before{
+    content:'';
+    position: absolute;
+    background:black;
+    width:0;
+    height: 3px;
+    bottom:0;
+    left:0;
+    transition:0.2s ease;
+}
+
+.nav-container .nav .nav-items a:hover:before{
+    width: 100%;
+    background:aqua;
+
+}
+
+.nav-container .nav .nav-items a:hover{
+    color:aqua
+}
+
