@@ -1,10 +1,9 @@
 .home-container{
     position:relative;
     display: flex;
-    height: 103vh;
+    height: 95vh;
     transform: translateY(1rem);
     width: 100%;
-    background-color: rgba(250, 249, 249, 0.41);
 }
 
 

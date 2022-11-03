@@ -33,7 +33,7 @@ const Home = () => {
   // automated navigation
   useEffect(() => {
     const timer = setTimeout(() => {
-      if (currentIndex === homeImages.length - 1) {
+      if (currentIndex === 3) { // hardcoded value for the length of the array
         setCurrentIndex(0);
       } else {
         setCurrentIndex(currentIndex + 1);

@@ -6,8 +6,8 @@ import Navbar from'./components/Navbar/Navbar'
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route path ="/" element = {<Landing/>}/>
         <Route path="/UpcomingEvents/*" element = {<UpcomingEventsPage/>}/> 
