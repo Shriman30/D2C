@@ -1,11 +1,14 @@
-section{
+.upcomingEvents-container{
+    position: relative;
+}
+ section{
     background-color: rgb(233, 239, 239);
     width: inherit;
     padding-bottom:5rem;
 }
 .upcomingEvents-container{
-    position: relative;
-    padding-top: 1rem;
+    position: absolute;
+    padding-top: 2rem;
 
 }
 
@@ -41,4 +44,4 @@ section{
     margin-left:1.25rem;
     background-color: transparent;
     border-style: none;
-}
+} 

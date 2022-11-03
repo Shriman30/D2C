@@ -1,3 +1,6 @@
-*{
-    background-color: rgb(233, 239, 239);;
+.landing{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
