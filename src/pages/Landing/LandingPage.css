@@ -1,9 +1,17 @@
 .landing{
     position: relative;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
     height: fit-content;
     background-color: rgba(224, 224, 224, 0.421);
     z-index: 777;
+    width: 100%;
+}
+.home-split{
+    width: 92%;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    object-position: center;
+    height: 1.5px;
+    background-color: darkgrey;
+    transform: translateY(-3.5rem);
 }
