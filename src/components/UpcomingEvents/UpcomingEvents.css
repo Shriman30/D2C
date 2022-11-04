@@ -1,14 +1,15 @@
 .upcomingEvents-container{
     position: relative;
     display: flex;
-    height: 70vh;
-    transform: translateY(-4rem);
+    height: fit-content;
+    /* transform: translateY(-4rem); */
     /* background-color: rgb(210, 226, 226); */
 }
 
 .upcomingEvents-container .content{
     padding-left:10rem;
     background-color: transparent;
+    transform:translateY(-4rem)
 }
 
 .upcomingEvents-container .content h1{
@@ -24,9 +25,11 @@
 }
 
 .label-container{
-    transform: translateY(3rem);
     width: 20rem;
     height: 4rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     border-radius: 2rem;
     font-size: 2.5rem;
     border-style: none;
@@ -37,21 +40,12 @@
     color:black;
     padding-left: 4rem;
     border-radius: 2rem;
-    background-color:transparent ;
+
 }
 
 .eventImg{
-    position: relative;
-    transform: translate(10rem,2rem);
     border-radius: 5rem;
-    background-color: white;
-
-
-}
-.arrow-right{
-    width: 10rem;
-    height: 10rem;
-    z-index:200;
-    transform: translate(8rem,16rem);
-    background-color: transparent;
+    transform: scaley(1.0);
+    transform: scalex(1.5);
+    margin-left:20rem;
 }
