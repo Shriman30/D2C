@@ -1,3 +1,4 @@
+
 @media (min-width:992px) {
     .home-container{
         position:relative;
@@ -13,6 +14,10 @@
         object-fit: contain;
         padding-left: 12rem;
         object-position: center;
+        width:100%;
+    }
+    .homepageImages{
+        width: 50%;
     }
     
     .slider-nav .nav-button.active{
@@ -93,3 +98,21 @@
     
     
 }
+
+/* @media (max-width:1057px){
+.homepageImages{
+    display: none;
+}
+.home-container .content{
+    padding-left:10rem;
+    padding-top: 5rem;
+    position: relative;
+    z-index: 888;
+    width: 100%;
+    transform:translateY(2rem)
+}
+.slider-nav{
+    display: none;
+}
+} */
+
