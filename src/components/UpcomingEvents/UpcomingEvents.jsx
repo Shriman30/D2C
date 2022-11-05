@@ -32,8 +32,8 @@ const UpcomingEvents = () => {
         </div>
       </div>
       {/* Need to implement this part as a card slider */}
-      <img src={require("./EVENTS 1.4.png")} alt="" className='eventImg'/>
-      <IoIosArrowForward className='arrow-right'/>
+      {/* <img src={require("./EVENTS 1.4.png")} alt="" className='eventImg'/>
+      <IoIosArrowForward className='arrow-right'/> */}
     </div>
   )
 }

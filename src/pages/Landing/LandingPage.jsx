@@ -9,10 +9,12 @@ const Landing = () => {
   return (
     <div className='landing'>
       <Home/>
+      <br />
       <hr className='home-split'/>
       <UpcomingEvents/>
       <hr />
       <AboutUs/>
+      <hr />
       <ContactUs/>
     </div>
   )

@@ -1,0 +1,138 @@
+.aboutUs-container{
+    padding-left:10rem;
+    padding-top: 2rem;
+    height: 70vh;
+}
+
+.aboutUs-container .header{
+    font-size: 60px;
+}
+.about-us-box-container{
+    height: 40%;
+    padding-left:10rem
+}
+
+.card{
+    perspective: 1000px;
+    margin: 2.5%;
+    height: 70%;
+    width: 25%;
+    max-width: 375px;
+    display: inline-block;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: 0.5s ease-in-out;
+}
+
+.card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.card-inner:hover{
+    cursor: pointer;
+}
+
+.card-inner.flip{
+transform: rotateY(180deg);
+}
+
+.card-front{
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: black;
+    /* outline: 4px solid #58b09c; */
+    background-color: rgb(60, 198, 193);
+    border-radius: 23px;
+    filter: drop-shadow( 2px 5px 8px rgba(0, 0, 0, 0.25) );
+    /* height: 100%;
+    width: 100%; */
+}
+.card-front:hover{
+    box-shadow: 2.2px 2.2px rgb(14, 162, 188);
+    transition: 2ms;
+}
+.card-back:hover{
+    box-shadow: 0.2px 2.2px rgb(15, 70, 79);
+    transition: 2ms;
+}
+
+
+.card-front .card-title{
+    height: 50%;
+    width: 100%;
+    background:transparent;
+    text-transform: uppercase;
+}
+
+.card-front .card-title p{
+    text-decoration: underline;
+    overflow-wrap: break-word;
+    vertical-align: middle;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    background-color: transparent;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
+    height: min-content;
+    transform:translateY(10rem);
+    font-size:28px;
+
+
+}
+
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    transform: rotateY(180deg);
+    /* outline: 4px solid transparent; */
+    background-image: linear-gradient( 152.51deg, #19dcd2 13.98%, #0c918f 90.58% );
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 23px;
+    filter: drop-shadow( 2px 5px 8px rgba(24, 65, 76, 0.25) );
+}
+
+.card-back .text{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 32px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2.5%;
+    padding: 15px;
+    background-color: transparent;
+}
