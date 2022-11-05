@@ -1,22 +1,23 @@
 .aboutUs-container{
     padding-left:10rem;
-    padding-top: 2rem;
-    height: 70vh;
+    padding-top: 4rem;
+    height: 100vh;
 }
 
 .aboutUs-container .header{
     font-size: 60px;
 }
 .about-us-box-container{
-    height: 40%;
-    padding-left:10rem
+    height: 50%;
+    width: 100%;
 }
 
 .card{
+
     perspective: 1000px;
-    margin: 2.5%;
+    margin: 1.5%;
     height: 70%;
-    width: 25%;
+    width: 29%;
     max-width: 375px;
     display: inline-block;
 }
