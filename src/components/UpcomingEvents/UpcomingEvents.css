@@ -1,6 +1,6 @@
 @media (min-width:992px) {
     .upcomingEvents-container{
-        position: relative;
+        /* position: relative; */
         padding-left:10rem;
         padding-top:5rem;
         height: 85vh;

@@ -1,24 +1,27 @@
 
-@media (min-width:992px) {
     .home-container{
         position:relative;
         display: flex;
         height: 102vh;
-        width: 100%;
+        /* width: 100vw; */
+        /* width: inherit; */
+        /* padding-left: 6rem; */
+        /* transform: translateY(-8rem); */
+        /* justify-content: center; */
+        justify-content: center;
     }
     
     
     .home-container .homepageImages{
-        height: 100%;
-        transform: translateY(-2.88rem);
-        object-fit: contain;
-        padding-left: 12rem;
-        object-position: center;
-        width:100%;
+        height: 110%;
+        padding-left: 5%;
+        transform: translateY(-1.98rem);
+        align-self: center;
+        object-fit:fill;
+        width: 92%;
+        background-color: transparent;
     }
-    .homepageImages{
-        width: 50%;
-    }
+
     
     .slider-nav .nav-button.active{
         background-color: rgb(39, 39, 39);
@@ -40,14 +43,13 @@
         position: absolute;
         display: flex;
         justify-content: center;
-        bottom:8rem;
+        bottom:0;
         left:35rem;
         align-items: center;
         align-self:center;
-        padding-left: 20rem;
         margin-bottom: 12px;
         background-color: transparent;
-        transform: translate(0,4rem);
+        transform: translate(8rem,-1rem);
     }
     .slider-nav span{
         width: 20px;
@@ -61,58 +63,49 @@
     }
     
     .home-container .content{
-        padding-left:10rem;
-        padding-top: 5rem;
+        transform: scale(0.85);
+        padding-top: 3rem;
+        padding-right: 30%;
         position: absolute;
         z-index: 888;
-        width: fit-content;
-        transform:translateY(2rem)
+        background-color: transparent;
+        width: 75%;
+        height: 70%;
     }
     
     .home-container .content h1{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 60px;
-        width: 40rem;
+        font-size: 70px;
+        width: 75%;
+        background-color: transparent;
     }
     .home-container .content p{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size:45px;
-        width: 40rem;
+        width: 60%;
+        background-color: transparent;
     }
     
     .home-container .content input{
-        width:45rem;
+        width:55%;
         height: 4rem;
-        border-radius: 2rem;
+        border-radius: 5.5rem;
         border-color: rgba(201, 197, 197, 0.129);
         box-shadow:0.25px 0.25px;
         font-size: 20px;
         background-color: white;
         text-align:left;
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
     .home-container .content input::placeholder{
         text-transform: uppercase;
+        padding-left: 2rem;
         
     }
     
-    
-}
-
-/* @media (max-width:1057px){
-.homepageImages{
-    display: none;
-}
-.home-container .content{
-    padding-left:10rem;
-    padding-top: 5rem;
-    position: relative;
-    z-index: 888;
-    width: 100%;
-    transform:translateY(2rem)
-}
-.slider-nav{
-    display: none;
-}
-} */
-
+    @media (max-width:942px) {
+        .slider-nav{
+            display: none;
+        }
+        
+    }

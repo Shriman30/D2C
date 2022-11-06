@@ -1,7 +1,7 @@
 .navbar{
     position:sticky;
     top:0;
-    height: fit-content;
+    /* height: fit-content; */
     z-index: 999;
     /* background-color: white; */
         background-color: rgb(224, 224, 224);
@@ -10,7 +10,7 @@
 }
 .nav{
     background-color: transparent;
-    width: 40rem;
+    /* width: 40rem; */
 }
 
 .navbar hr{
@@ -46,7 +46,7 @@ justify-content: space-between;
 align-items: center;
 padding: 15px 200px;
 transition: 0.5s ease;
-height: 4rem;
+/* height: 4rem; */
 
 }
 

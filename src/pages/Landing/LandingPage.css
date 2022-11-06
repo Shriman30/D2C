@@ -4,6 +4,7 @@
     background-color: rgba(224, 224, 224, 0.421);
     z-index: 777;
     width: 100%;
+    flex-direction: column;
 }
 .home-split{
     width: 92%;
@@ -13,5 +14,4 @@
     object-position: center;
     height: 1.5px;
     background-color: darkgrey;
-    transform: translateY(-3.5rem);
 }
