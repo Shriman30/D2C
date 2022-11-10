@@ -45,10 +45,13 @@ const UpcomingEvents = () => {
         </div>
       </div>
       {/* Need to implement this part as a card slider */}
-      <img className="upcomingEventsImg"
+      <div className="upcomingEvents">
+      <img className='upcomingEventsImg'
         src={require(`${upcomingEventsImages[currentIndex].src}`)}
         alt=""
       />
+      </div>
+ 
       {/* <IoIosArrowForward className='arrow-right'/> */}
     </div>
   )
