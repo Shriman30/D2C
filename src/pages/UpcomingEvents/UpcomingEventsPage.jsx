@@ -2,8 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./UpcomingEventsPage.css";
 import data from "./data";
+import { useEffect } from "react";
 
 const UpcomingEventsPage = () => {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
   return (
     <div className="upcomingEvents-page-container">
       <h1>Upcoming Events</h1>

@@ -2,9 +2,9 @@
     .upcomingEvents-container{
         /* position: relative; */
         padding-left:10rem;
-        padding-top:5rem;
         height: 85vh;
         display: flex;
+        background: transparent;
     }
     
     .upcomingEvents-container .content{
@@ -43,4 +43,11 @@
     
     }
     
+}
+
+.upcomingEventsImg{
+    position: relative;
+    z-index: -1;
+    background: transparent;
+    transform: translateX(-40%);
 }

@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from 'react-router-dom'
 import { useState, useEffect } from "react";
 import "./Home.css";
 
@@ -27,7 +26,7 @@ const Home = () => {
       alt: "Homepage 1",
     },
   ];
-
+  
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // automated navigation

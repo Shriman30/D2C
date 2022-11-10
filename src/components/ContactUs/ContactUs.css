@@ -1,7 +1,6 @@
 .contact-us-container{
-    padding-top: 6rem;
     padding-left: 5rem;
-    height: 100vh;
+    height: fit-content;
 }
 
 .contact-us-container .header{
