@@ -85,6 +85,7 @@ transition: 0.5s ease;
     margin-left:30px;
     transition:0.3s ease;
     font-size: 24px;
+    cursor: pointer;
 
 }
 
@@ -108,5 +109,10 @@ transition: 0.5s ease;
 
 .nav-container .nav .nav-items .link:hover{
     color:aqua
+}
+
+.nav-container .nav .nav-items .link.active{
+    color:aqua;
+    text-decoration: underline;
 }
 

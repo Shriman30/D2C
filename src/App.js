@@ -7,9 +7,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar/>
+      <Navbar>
+      </Navbar>
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="/*" element={<Landing />} />
           <Route path="/UpcomingEvents/*" element={<UpcomingEventsPage />} />
           {/* doing something similar to line 12 will allow us to implement more specific routes */}
         </Routes>
