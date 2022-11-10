@@ -2,6 +2,7 @@ import React from 'react'
 import './UpcomingEvents.css'
 import {IoIosArrowForward} from 'react-icons/io'
 import { useState } from 'react'
+import { Link } from "react-router-dom";
 const UpcomingEvents = () => {
 
   const upcomingEventsImages = [
@@ -28,7 +29,8 @@ const UpcomingEvents = () => {
         <h1>Upcoming Events</h1>
         <p>Interested in finding out what awaits you? Quickly join us! Find out about our most awaited upcoming events and join our community as early as today!</p>
         <div className='label-container'>
-        <a href="">Read more</a>
+        {/* <a href="">Read more</a> */}
+        <Link className='link' to='UpcomingEvents'>Read more</Link>
         </div>
       </div>
       {/* Need to implement this part as a card slider */}
