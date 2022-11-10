@@ -1,0 +1,108 @@
+.contact-us-container{
+    padding-top: 6rem;
+    padding-left: 5rem;
+    height: 100vh;
+}
+
+.contact-us-container .header{
+    font-size: 36px;
+}
+
+.contact-us-container .content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.contact-info{
+    height: 50%;
+    transform: translateX(-8rem);
+}
+
+.email{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.email img{
+    transform: scale(1.3);
+    width: 400px;
+}
+
+.email p{
+    position: absolute;
+    left:18rem;
+    top:6rem;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+.phone{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(2rem);
+}
+
+.phone img{
+    transform: scale(1.3);
+    width: 400px;
+}
+
+.phone p{
+    position: absolute;
+    left: 16rem;
+    width:100%;
+    top:2rem;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+.form-container{
+    /* background-color: red; */
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    width: fit-content;
+    height: 100%;
+    transform: translateY(-6rem);
+}
+
+.form{
+    padding-top:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    width: fit-content;
+}
+
+.form input{
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 600px;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    font-size: 24px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+}
+
+.form textarea{
+    border: none;
+    outline: none;
+    height: 350px;
+    width: 95%;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    font-size: 24px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+}
