@@ -13,6 +13,7 @@ const Landing = () => {
       <UpcomingEvents/>
       <hr className='home-split'/>
       <AboutUs/>
+      <hr className='home-split' />
       <ContactUs/>
     </div>
   )

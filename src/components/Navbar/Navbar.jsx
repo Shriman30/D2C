@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 import "./Navbar.css";
 
 const NavBar = () => {
@@ -13,10 +13,11 @@ const NavBar = () => {
         <div className="nav">
           <div className="nav-items">
             {/* Need to refactor this using Link to and react-scroll */}
-            <a href="#home">Home</a>
-            <a href="#upcomingEvents">Upcoming Events</a>
-            <a href="#aboutUs">About Us</a>
-            <a href="#contactUs">Contact Us</a>
+              {/* <Route path="Home" index element={<Home/>}>Home</Route> */}
+            <Link className="link" to="home" spy={true} smooth={true} offset={10} duration={700}>Home</Link>
+            <Link className="link" to="upcomingEvents" spy={true} smooth={true} offset={1} duration={700}>Upcoming Events</Link>
+            <Link className="link" to="aboutUs" spy={true} smooth={true} offset={5} duration={700}>About Us</Link>
+            <Link className="link"  to="contactUs" spy={true} smooth={true} offset={5} duration={700}>Contact Us</Link>
           </div>
         </div>
       </div>
