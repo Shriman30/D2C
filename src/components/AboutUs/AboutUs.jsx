@@ -28,14 +28,10 @@ const AboutUs = () => {
                 </div>
                 <div className="card-back">
                   <p className="text">
-                    {/* {item.description} add the description in the data.jsx file */}
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Odio hic eligendi similique, ut dolorum quas voluptatibus
-                    assumenda distinctio mollitia. Omnis autem, quo atque fugiat
-                    dolorem totam tempore distinctio voluptatem modi nemo error
-                    iure consectetur, illum commodi, iste placeat temporibus!
-                    Aut voluptates rerum eius consequatur temporibus debitis,
-                    minima dicta adipisci aliquam.
+                    {
+                    item.description
+                    }
+                    
                   </p>
                 </div>
               </div>
