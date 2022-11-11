@@ -7,15 +7,27 @@ import upcomingEventsList from "./upcomingEventsData";
 import SpecificEventInfoPage from "./pages/SpecificEventInfo/SpecificEventInfoPage";
 function App() {
   return (
-    
     <div className="App">
       <BrowserRouter>
-      <Navbar/>
+        <Navbar />
         <Routes>
-          <Route  path="/*" element={<Landing />} />
-          <Route path="/AllUpcomingEvents" element={<UpcomingEventsPage />} />
-          {upcomingEventsList.map(upcomingEvent =>{
-            return(<Route key={upcomingEvent.id} path = {`/${upcomingEvent.link}`} element={<SpecificEventInfoPage title = {upcomingEvent.title}/>}/>)
+          <Route path="/*" element={<Landing />} />
+          <Route path="/AllUpcomingEvents/*" element={<UpcomingEventsPage />} />
+          {upcomingEventsList.map((upcomingEvent) => {
+            return (
+              <Route
+                key={upcomingEvent.id}
+                path={`/${upcomingEvent.link}/*`}
+                element={
+                  <SpecificEventInfoPage
+                    title={upcomingEvent.title}
+                    description={upcomingEvent.description}
+                    location = {upcomingEvent.location}
+                    price = {upcomingEvent.price}
+                  />
+                }
+              />
+            );
           })}
         </Routes>
       </BrowserRouter>

@@ -17,7 +17,7 @@ const UpcomingEventsPage = () => {
           return (
             <div key={index} className="element-container">
               <div className="element">
-                  <img src={require(`${item.img}`)} alt="img" width={"500px"} height={"300px"}/>
+                  <img src={require(`${item.img}`)} alt="img"/>
                 <div className="event-title">
                   <p className="title">{item.title}</p>
                 </div>
@@ -36,6 +36,9 @@ const UpcomingEventsPage = () => {
           );
         })}
       </div>
+      <div>
+        <h3>Stay Up to Date for more Upcoming Events !</h3>
+        </div>
     </div>
   );
 };

@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./SpecificEventInfoPage.css";
 
 const SpecificEventInfoPage = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="specificEvent-container">
       <div className="event">
