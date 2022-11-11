@@ -1,9 +1,10 @@
 import "./App.css";
-import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing/LandingPage";
 import UpcomingEventsPage from "./pages/UpcomingEvents/UpcomingEventsPage";
 import Navbar from "./components/Navbar/Navbar";
+import upcomingEventsList from "./upcomingEventsData";
+import SpecificEventInfoPage from "./pages/SpecificEventInfo/SpecificEventInfoPage";
 function App() {
   return (
     
@@ -12,8 +13,10 @@ function App() {
       <Navbar/>
         <Routes>
           <Route  path="/*" element={<Landing />} />
-          <Route path="/AllUpcomingEvents/*" element={<UpcomingEventsPage />} />
-          {/* doing something similar to line 12 will allow us to implement more specific routes */}
+          <Route path="/AllUpcomingEvents" element={<UpcomingEventsPage />} />
+          {upcomingEventsList.map(upcomingEvent =>{
+            return(<Route key={upcomingEvent.id} path = {`/${upcomingEvent.link}`} element={<SpecificEventInfoPage title = {upcomingEvent.title}/>}/>)
+          })}
         </Routes>
       </BrowserRouter>
     </div>

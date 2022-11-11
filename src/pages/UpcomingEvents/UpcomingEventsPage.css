@@ -19,16 +19,42 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background: transparent;
+    width: 100%;
+    align-items: center;
+    font-size: 24px;
+}
+.element p{
+    width: 20rem;
 }
 
-.element p{
-    width: 14rem;
-    font-size: 18px;
+.element .event-link{
+    background-color: white;
+    width: fit-content;
+    width: 10rem;
+    height: 2.35rem;
+    border-radius: 2rem;
+
 }
 
 .element .links{
     padding-top: 1.5rem;
+    padding-left: 1.25rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
 }
+
+.element img{
+    position: relative;
+    background-color: transparent;
+    z-index: 0;
+    height: 10vh;
+    width: 10vw;
+    transform: scale(3);
+    
+}
+
 .divider{
     width: 92%;
     height: 1px;

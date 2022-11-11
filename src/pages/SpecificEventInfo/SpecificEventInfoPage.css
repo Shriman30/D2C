@@ -1,0 +1,8 @@
+.specificEvent-container{
+    height: 100vh;
+}
+
+.specificEvent-container .event{
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
