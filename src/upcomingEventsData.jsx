@@ -7,7 +7,7 @@ const upcomingEventsList = [
         link:'/Canada-Day-Parade',
         description:'Enjoy the National Day, all Day. Go to the Old port and spend the first few hours of our National Day',
         price: 'Free',
-        location:'Montreal',
+        location:'Anjou',
     },
     {
         id:1,
@@ -80,7 +80,7 @@ const upcomingEventsList = [
         link:'/Halloween-Pumpkin-Picking',
         description:'Pick some pumpkins for eating or carving',
         price: '$5 per pumpkin',
-        location:'Dollard-Des Ormeaux',
+        location:'Dollard-Des-Ormeaux',
     },
     {
         id:9,
@@ -90,7 +90,7 @@ const upcomingEventsList = [
         link:'/Toddlers-Ballet-Show',
         description:'Dancing babies on a stage',
         price: 'Free',
-        location:'Dollard-Des Ormeaux',
+        location:'Dollard-Des-Ormeaux',
     },
     {
         id:7,
@@ -100,7 +100,7 @@ const upcomingEventsList = [
         link:'/Zoomba',
         description:'Zumba is a fitness program that involves cardio and Latin-inspired dance. Come if you like to dance and have fun',
         price: 'Free',
-        location:'Dollard-Des Ormeaux',
+        location:'Dollard-Des-Ormeaux',
     },
 ]
 

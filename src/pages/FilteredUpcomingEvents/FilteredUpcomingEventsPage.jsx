@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./UpcomingEventsPage.css";
-import data from "../../upcomingEventsData";
+import "./FilteredUpcomingEventsPage.css";
+// import data from "../../upcomingEventsData";
 import { useEffect } from "react";
 
-const UpcomingEventsPage = () => {
+const FilteredUpcomingEventsPage = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -13,7 +13,7 @@ const UpcomingEventsPage = () => {
     <div className="upcomingEvents-page-container">
       <h1>Upcoming Events</h1>
       <div className="list">
-        {data.map((item, index) => {
+        {props.data.map((item, index) => {
           return (
             <div key={index} className="element-container">
               <div className="element">
@@ -43,4 +43,4 @@ const UpcomingEventsPage = () => {
   );
 };
 
-export default UpcomingEventsPage;
+export default FilteredUpcomingEventsPage;

@@ -1,8 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import locations from "../locationsData";
 import "./Home.css";
 
-const Home = () => {
+const Home = (props) => {
   // list of images
   const homeImages = [
     {
@@ -13,26 +15,28 @@ const Home = () => {
     {
       id: 1,
       src: "./HOMEPAGE 1.2.png",
-      alt: "Homepage 1",
+      alt: "Homepage 2",
     },
     {
       id: 2,
       src: "./HOMEPAGE 1.3.png",
-      alt: "Homepage 1",
+      alt: "Homepage 3",
     },
     {
       id: 3,
       src: "./HOMEPAGE 1.4.png",
-      alt: "Homepage 1",
+      alt: "Homepage 4",
     },
   ];
-  
+
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedLocation, setSelectedLocation] = useState("none");
 
   // automated navigation
   useEffect(() => {
     const timer = setTimeout(() => {
-      if (currentIndex === 3) { // hardcoded value for the length of the array
+      if (currentIndex === 3) {
+        // hardcoded value for the length of the array
         setCurrentIndex(0);
       } else {
         setCurrentIndex(currentIndex + 1);
@@ -48,7 +52,8 @@ const Home = () => {
 
   return (
     <div className="home-container" id="home">
-      <img className="homepageImages"
+      <img
+        className="homepageImages"
         src={require(`${homeImages[currentIndex].src}`)}
         alt=""
       />
@@ -70,11 +75,23 @@ const Home = () => {
         <p>
           Join our community to find an activity that best suits your interests.
         </p>
-        <input
-          type="text"
-          className="location-input"
-          placeholder="enter your location here"
-        />
+        <h2>Choose your location of interest!</h2>
+        <select onChange={(e) => setSelectedLocation(e.target.value)}>
+          <option value={""} disabled selected hidden>
+            Choose your location!
+          </option>
+          {locations.map((location, index) => (
+            <option key={index} value={location.location}>
+              {location.location}
+            </option>
+          ))}
+        </select>
+        <button id="send-button">
+          {props.parentCallback(selectedLocation)}
+          <Link className="link" to="UpcomingEventsByLocation">
+            Find Activities
+          </Link>
+        </button>
       </div>
     </div>
   );

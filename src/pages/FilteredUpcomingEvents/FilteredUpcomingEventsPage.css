@@ -1,0 +1,73 @@
+.upcomingEvents-page-container{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(224, 224, 224, 0.421);
+}
+.upcomingEvents-page-container h1{
+    font-size: 45px;
+    padding-left: 5rem;
+}
+
+.list{
+    height: fit-content;
+    background-color: rgba(224, 224, 224, 0.421);
+}
+.element-container{
+    background-color: rgba(224, 224, 224, 0.421);
+}
+
+.element{
+    position: relative;
+    z-index:10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: transparent;
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+    font-size: 24px;
+}
+.element p{
+    width: 20rem;
+    background-color: rgba(224, 224, 224, 0.421);
+}
+
+.element .event-link{
+    background-color: white;
+    width: fit-content;
+    width: 10rem;
+    height: 2.35rem;
+    border-radius: 2rem;
+
+}
+
+.element .links{
+    padding-top: 1.5rem;
+    padding-left: 1.25rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.element img{
+    position: relative;
+    background-color: transparent;
+    z-index: 0;
+    height: 200px;
+    width: 300px;
+    transform: scale(1.5);
+}
+
+.divider{
+    width: 92%;
+    height: 1px;
+    background-color: darkgrey;
+}
+
+h3{
+    transform: translateX(40rem);
+    width:25rem;
+}
