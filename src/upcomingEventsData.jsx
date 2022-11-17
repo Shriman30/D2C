@@ -7,7 +7,7 @@ const upcomingEventsList = [
         link:'/Canada-Day-Parade',
         description:'Enjoy the National Day, all Day. Go to the Old port and spend the first few hours of our National Day',
         price: 'Free',
-        location:'Old Port or Mont-Royal Belvedaire',
+        location:'Montreal',
     },
     {
         id:1,
@@ -18,7 +18,7 @@ const upcomingEventsList = [
         description:`Come join us! You can even bring your family, friend, or date to watch a new movie everytime we organize a movie night! 
                      You can either bring your own food, snacks and/or drinks or buy your dinner from our food-truck'`,
         price: '1$ per member! Free for kids and if it is your Birthday (ID may be required to verify your age)',
-        location:'',
+        location:'Montreal',
     },
     {
         id:2,
@@ -26,9 +26,9 @@ const upcomingEventsList = [
         title:"Color-Run",
         date: '17/08/2022',
         link:'/Color-run',
-        description:'',
-        price: '',
-        location:'',
+        description:'Run and throw colour',
+        price: '$20 per person',
+        location:'Montreal',
     },
     {
         id:3,
@@ -39,7 +39,7 @@ const upcomingEventsList = [
         description:`Not sure what to do this Thanksgiving? Come join us at Montreal's Annual Thanksgiving 
                     festival where you can meet new people, have dinner with us, and much more`,
         price: 'Single ticket: 5$, Couples Ticket: 7$, Free for kids under the age of 10',
-        location:'Westmount Park, Angrignon Park',
+        location:'Montreal',
     },
     {
         id:4,
@@ -47,9 +47,9 @@ const upcomingEventsList = [
         title:"Halloween Dance Party",
         date: '31/10/2022',
         link:'/Halloween-Dance-Party',
-        description:'',
-        price: '',
-        location:'',
+        description:'Come dressed as monsters and boggie to some music',
+        price: '$2 per person',
+        location:'Vaudreuil',
     },
     {
         id:5,
@@ -60,7 +60,7 @@ const upcomingEventsList = [
         description:`Come have a nice stretch with us in the sunlight and get a chance to clense your aura with our guest instructor Charles Matkin!
                      Note: in case of bad weather, we will postpone the event and further notice will be given`,
         price: 'Free',
-        location:'Park LaFontaine',
+        location:'Vaudreuil',
     },
     {
         id:7,
@@ -68,9 +68,9 @@ const upcomingEventsList = [
         title:"Christmas Market Opening",
         date: '15/12/2022',
         link:'/Christmas-Market-Opening',
-        description:'',
-        price: '',
-        location:'',
+        description:'Open air market. Great place to different gift ideas.',
+        price: 'Free',
+        location:'Vaudreuil',
     },
     {
         id:8,
@@ -78,9 +78,9 @@ const upcomingEventsList = [
         title:"Halloween Pumpkin Picking",
         date: '15/10/2022',
         link:'/Halloween-Pumpkin-Picking',
-        description:'',
-        price: '',
-        location:'',
+        description:'Pick some pumpkins for eating or carving',
+        price: '$5 per pumpkin',
+        location:'Dollard-Des Ormeaux',
     },
     {
         id:9,
@@ -88,19 +88,19 @@ const upcomingEventsList = [
         title:"Toddlers Ballet Show",
         date: '15/12/2022',
         link:'/Toddlers-Ballet-Show',
-        description:'',
-        price: '',
-        location:'',
+        description:'Dancing babies on a stage',
+        price: 'Free',
+        location:'Dollard-Des Ormeaux',
     },
     {
         id:7,
         img: './Upcoming Events 1.1 (11).png',
-        title:"Zoomba",
+        title:"Zumba",
         date: '15/12/2022',
         link:'/Zoomba',
-        description:'',
-        price: '',
-        location:'',
+        description:'Zumba is a fitness program that involves cardio and Latin-inspired dance. Come if you like to dance and have fun',
+        price: 'Free',
+        location:'Dollard-Des Ormeaux',
     },
 ]
 
