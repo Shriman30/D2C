@@ -6,3 +6,26 @@
     padding-left: 5rem;
     padding-top: 2rem;
 }
+.specificEvent-container .title{
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 5%;
+}
+
+
+.specificEvent-container .event-summary{
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+  }
+  .element h3{
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+}  
+
+.specificEvent-container .SpecificImg{
+    position: relative;
+    text-align: center;
+  }
