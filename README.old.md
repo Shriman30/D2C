@@ -30,3 +30,8 @@
 
 # Deployment
 - To discuss when we finish
+
+# Side note about the project:
+- Due to some time contraints, it was almost impossible to get all the components to be responsive; future updates will make the application more accessible to users using a mobile device.
+
+- For presentation purposes, we will keep the user's use of this application over a laptop screen
