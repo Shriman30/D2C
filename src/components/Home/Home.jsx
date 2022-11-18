@@ -76,22 +76,27 @@ const Home = (props) => {
           Join our community to find an activity that best suits your interests.
         </p>
         <h2>Choose your location of interest!</h2>
-        <select onChange={(e) => setSelectedLocation(e.target.value)}>
-          <option value={""} disabled selected hidden>
-            Choose your location!
-          </option>
-          {locations.map((location, index) => (
-            <option key={index} value={location.location}>
-              {location.location}
+        <div className="user-input">
+          <select
+            className="user-selection"
+            onChange={(e) => setSelectedLocation(e.target.value)}
+          >
+            <option id="default-option" value={""} disabled selected hidden>
+              Choose your location!
             </option>
-          ))}
-        </select>
-        <button id="send-button">
-          {props.parentCallback(selectedLocation)}
-          <Link className="link" to="UpcomingEventsByLocation">
-            Find Activities
-          </Link>
-        </button>
+            {locations.map((location, index) => (
+              <option key={index} value={location.location}>
+                {location.location}
+              </option>
+            ))}
+          </select>
+          <button id="send-button">
+            {props.parentCallback(selectedLocation)}
+            <Link className="link" to="UpcomingEventsByLocation">
+              Find Activities
+            </Link>
+          </button>
+        </div>
       </div>
     </div>
   );
