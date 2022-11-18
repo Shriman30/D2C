@@ -2,25 +2,78 @@
     height: 100vh;
 }
 
-.specificEvent-container .event{
-    padding-left: 5rem;
-    padding-top: 2rem;
-}
-.specificEvent-container .title{
-  float: right;
-  margin-left: 30%;
-  margin-right: 10%;
-  font-size: 40px;
-  margin-top: 5%;
+.event{
+  display: flex;
+  gap:6rem;
 }
 
-.specificEvent-container .SpecificImg{
-    float: left;
-  }
+.event .img-description{
+  height: 100%;
+  width: 30rem;
+  transform: translate(3rem, 2rem);
+}
 
-  .specificEvent-container .event-details{
-    font-size: 15px;
-    float: right;
-    margin-left: 30%;
-    margin-right: 10%;
-  }
+.event .img-description img{
+  width: 24rem;
+  height: 24rem;
+  border-top-right-radius: 8rem;
+  position: relative;
+  z-index: 0;
+}
+.event .img-description .date{
+  transform: translateY(-4rem);
+  width: 10rem;
+  height: 10rem;
+  background-color: transparent;
+}
+.event .img-description .date img{
+  position: relative;
+  z-index: 0;
+  transform: translateY(3rem);
+  width: 10rem;
+  height: 7rem;
+  background-color: transparent;
+}
+
+.event .img-description .date p{
+  transform: translate(8rem, -3.5rem);
+  font-size: 1.25rem;
+  width: 16rem;
+  max-width: fit-content;
+  min-height: fit-content;
+}
+.event .img-description .location{
+  transform: translateY(-8rem);
+  width: 10rem;
+  height: 10rem;
+  background-color: transparent;
+}
+.event .img-description .location img{
+  position: relative;
+  z-index: 0;
+  transform: translateY(3rem);
+  width: 10rem;
+  height: 7rem;
+  background-color: transparent;
+}
+
+.event .img-description .location p{
+  transform: translate(8rem, -3.5rem);
+  font-size: 1.25rem;
+  width: 16rem;
+}
+
+.event .event-details{
+  transform: translateY(2rem);
+  width: 54rem;
+  font-size: 1.65rem;
+}
+
+.event .event-details h2{
+  font-size: 3rem;
+}
+
+.event .event-details p{
+  max-height: inherit;
+  min-height: fit-content;
+}

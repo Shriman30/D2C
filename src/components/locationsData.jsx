@@ -5,7 +5,7 @@ const locations = [
     },
     {
         id:1,
-        location:"Montreal-Nord",
+        location:"Cotes-des-Neiges",
     },
     {
         id:2,

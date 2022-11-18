@@ -41,7 +41,7 @@ const Home = (props) => {
       } else {
         setCurrentIndex(currentIndex + 1);
       }
-    }, 5000);
+    }, 3500);
     return () => clearTimeout(timer);
   }, [currentIndex]);
 

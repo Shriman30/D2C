@@ -42,6 +42,7 @@ function App() {
                     description={upcomingEvent.description}
                     location={upcomingEvent.location}
                     price={upcomingEvent.price}
+                    exactLocation = {upcomingEvent.exactLocation}
                   />
                 }
               />

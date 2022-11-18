@@ -8,6 +8,7 @@ const upcomingEventsList = [
         description:'Come see the Canada day parade! There will be food trucks and music for all, you will see and hear keynote speakers to highlight the history and culture of Canada.',
         price: 'Free',
         location:'Anjou',
+        exactLocation:'All over the neighborhood',
     },
     {
         id:1,
@@ -18,6 +19,7 @@ const upcomingEventsList = [
         description:`Movies in the park is an activity that can be done as a date night or as a family night out. This movie theatre is outside it has 4 big screens screening 8 different movies. They have two showing times 7:30 pm when the sun sets and 10:30 pm. You park your car in front of the screen and connect to the radio channel of the screen you are at the hear the movie up close from your car. There is a canteen to eat supper or buy snacks.        `,
         price: '1$ per member! Free for kids and if it is your Birthday (ID may be required to verify your age)',
         location:'Montreal',
+        exactLocation:'Mont-Royale',
     },
     {
         id:2,
@@ -28,6 +30,7 @@ const upcomingEventsList = [
         description:'The color run is a 5Km race that is for all ages. It is an event to get in shape get outdoors and have fun with your community. People run with great music as well as being sprayed with powdered color to make it livelier and more fun. this event gets you out of your comfort zone and enjoys getting physically active in good company.',
         price: '$20 per person',
         location:'Montreal',
+        exactLocation:'Parc de la Savane',
     },
     {
         id:3,
@@ -39,6 +42,7 @@ const upcomingEventsList = [
                     festival where you can meet new people, have dinner with us, and much more`,
         price: 'Single ticket: 5$, Couples Ticket: 7$, Free for kids under the age of 10',
         location:'Montreal',
+        exactLocation:'All over the neighborhood',
     },
     {
         id:4,
@@ -49,6 +53,7 @@ const upcomingEventsList = [
         description:'Come dressed as monsters and boggie to some music. There will be crazy lights and fun music to dance to and prizes to be won for the best dance moves. More prizes to be won for the best halloween costume at the costume fashion show. There will be awesome snack and refreshments to all those dressed up.',
         price: '$2 per person',
         location:'Vaudreuil',
+        exactLocation:'Vaudreuil Stadium',
     },
     {
         id:5,
@@ -59,6 +64,7 @@ const upcomingEventsList = [
         description:`A calming way to strengthen your inner core and muscles in a relaxing environment. These classes are open to all, ages 12 and over. They offer many different levels of difficulty and classes that last an hour. In these classes you focus on your well-being, breathing, and inner strength, these classes will help you to deal with stress and anxiety as well as get physically active and build muscle.`,
         price: 'Free',
         location:'Vaudreuil',
+        exactLocation:'All over the neighborhood',
     },
     {
         id:7,
@@ -69,6 +75,7 @@ const upcomingEventsList = [
         description:'Come to our christmas market where you can christmas gift and souvenirs from our local sponsors. Santa will be there with his eles to take pictures and take christmas wishes back to the north pole. There will be dancing and christmas caroling to spread the holiday cheer.',
         price: 'Free',
         location:'Vaudreuil',
+        exactLocation:'All over the neighborhood',
     },
     {
         id:8,
@@ -79,6 +86,7 @@ const upcomingEventsList = [
         description:'Come pick out some locally grown pumpkins in our pumpkin garden, for the perfect halloween jackolaterns, or for the perfect pumpkin pie. Come meet some of our local farmers and pick up some pumpkin inspired recipes to put your pumpkins to good use. You can take beautiful fall picture in our pumpkin gardens for memories to last a lifetime.',
         price: '$5 per pumpkin',
         location:'Dollard-Des-Ormeaux',
+        exactLocation:'All over the neighborhood',
     },
     {
         id:9,
@@ -89,6 +97,7 @@ const upcomingEventsList = [
         description:'Dancing babies on a stage. Come take dance lessons at 36.3 Dimension danse. They offer many styles of dance such as Ballet, contemporary, hip-hop, jazz, lyrical, street jazz, and musical theatre. The school contains 4 studios, and accepts students from ages 3 and up, with levels that are convenient for all to attend. They offer 3 sessions a fall winter and summer session, they typically have a Christmas and end-of-year show to show the progress of their students.',
         price: 'Free',
         location:'Dollard-Des-Ormeaux',
+        exactLocation:'9302 Des-Sources',
     },
     {
         id:7,
@@ -99,6 +108,7 @@ const upcomingEventsList = [
         description:'Zumba is a fitness program that involves cardio and Latin-inspired dance. Come if you like to dance and have fun',
         price: 'Free',
         location:'Dollard-Des-Ormeaux',
+        exactLocation:'Monster Gym',
     },
     {
         id:10,
@@ -106,9 +116,10 @@ const upcomingEventsList = [
         title:"Soccer for Kids",
         date: '15/12/2022',
         link:'/Soccerforkids',
-        description:'Join the CDN Soccer team! Tryouts are on the 29 of March, we have multiple divisions and age groups of soccer training. They will be training twice a week and have soccer games Saturday or Sunday afternoons with specific dates given when registered.',
+        description:'Join the DDO Soccer team! Tryouts are on the 29 of March, we have multiple divisions and age groups of soccer training. They will be training twice a week and have soccer games Saturday or Sunday afternoons with specific dates given when registered.',
         price: 'Free',
-        location:'Dollard-Des Ormeaux',
+        location:'Dollard-Des-Ormeaux',
+        exactLocation:'1234 rue Sunnybroke',
     },
     {
         id:11,
@@ -119,6 +130,7 @@ const upcomingEventsList = [
         description:'Want to join a house league soccer team! Gather your friends/ family and create teams of 12 and register your team name on our website. We will contact you with the location and time of your first game and randomly assign you an opponent. Great way to get active and meet new friends with some healthy competition!',
         price: 'Free',
         location:'Vaudreuil',
+        exactLocation:'Parc Vaudreuil',
     },
     {
         id:12,
@@ -129,6 +141,7 @@ const upcomingEventsList = [
         description:'Painting classes for adults, come to a painting workshop where every week you will work on new art pieces, for example, recreating famous art pieces, finger painting, ceramic painting, canvas painting, water painting, etc. You will meet new people and enjoy expressing yourself through art as well as having fun exploring many different painting techniques.',
         price: 'Free',
         location:'Dollard-Des Ormeaux',
+        exactLocation:'All over the neighborhood',
     },
     {
         id:13,
@@ -138,7 +151,8 @@ const upcomingEventsList = [
         link:'/RunClub',
         description:'Join the run club, we meet at a specific location every weekend at 8:30 am to start running a designated route by our team leader and complete a 1 hour outdoor run. Bring a water bottle and some weather-appropriate clothes as well as shoes and certainly don’t forget to smile.',
         price: 'Free',
-        location:'Montreal',
+        location:'Cotes-des-Neiges',
+        exactLocation:'Park Kent',
     },
     {
         id:14,
@@ -148,7 +162,8 @@ const upcomingEventsList = [
         link:'/Paintingforkids',
         description:'Painting classes for kids, bring your kids to a painting workshop where every week they will work on new art activities, for example, finger painting, ceramic painting, canvas painting, water painting, etc. They will meet new friends and enjoy expressing themselves through art as well as having fun exploring many different painting techniques. These workshop classes are offered to the age group of 3-12.',
         price: 'Free',
-        location:'Dollard-Des Ormeaux',
+        location:'Dollard-Des-Ormeaux',
+        exactLocation:'3200 Centre DDO, H9Q1H3',
     },
 ]
 
