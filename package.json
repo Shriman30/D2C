@@ -2,7 +2,7 @@
   "name": "connect2disconnect",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://Shriman30.github.io/D2C",
+  "homepage":"http://Shriman30.github.io/connect2disconnect",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.16.5",
