@@ -29,7 +29,12 @@
     
 
 # Deployment
-- To discuss when we finish
+- put : "homepage": "http://Shriman30.github.io/D2C -> top level
+- put:  "predeploy": "npm run build","deploy": "gh-pages -d build", -> in scripts tag
+
+then do npm run build 
+then npm run deploy
+
 
 # Side note about the project:
 - Due to some time contraints, it was almost impossible to get all the components to be responsive; future updates will make the application more accessible to users using a mobile device.
