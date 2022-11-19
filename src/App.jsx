@@ -9,27 +9,34 @@ import FilteredUpcomingEventsPage from "./pages/FilteredUpcomingEvents/FilteredU
 import { useState } from "react";
 
 function App() {
-  const [userSelection, setUserSelection] = useState('');
-  const callbackFunction = (userInput)=>{
+  const [userSelection, setUserSelection] = useState("");
+  const callbackFunction = (userInput) => {
     setUserSelection(userInput);
-  }
-  const filteredUpcomingEventsList = upcomingEventsList.filter(upcomingEvent =>{
-    return upcomingEvent.location ===userSelection;
-  })
+  };
+  const filteredUpcomingEventsList = upcomingEventsList.filter(
+    (upcomingEvent) => {
+      return upcomingEvent.location === userSelection;
+    }
+  );
 
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/*" element={<Landing parentCallback={callbackFunction} />} />
+          <Route
+            path="/*"
+            element={<Landing parentCallback={callbackFunction} />}
+          />
           <Route
             path="/AllUpcomingEvents/*"
-            element={<UpcomingEventsPage data={upcomingEventsList}/>}
+            element={<UpcomingEventsPage data={upcomingEventsList} />}
           />
           <Route
             path="/UpcomingEventsByLocation/*"
-            element={<FilteredUpcomingEventsPage data={filteredUpcomingEventsList} />}
+            element={
+              <FilteredUpcomingEventsPage data={filteredUpcomingEventsList} />
+            }
           />
           {upcomingEventsList.map((upcomingEvent) => {
             return (
@@ -42,7 +49,7 @@ function App() {
                     description={upcomingEvent.description}
                     location={upcomingEvent.location}
                     price={upcomingEvent.price}
-                    exactLocation = {upcomingEvent.exactLocation}
+                    exactLocation={upcomingEvent.exactLocation}
                   />
                 }
               />
@@ -53,5 +60,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
