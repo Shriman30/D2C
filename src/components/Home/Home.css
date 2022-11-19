@@ -85,7 +85,13 @@
         width: 60%;
         background-color: transparent;
     }
-    
+
+    .home-container .content h2{
+        background-color: transparent;
+    }
+    .home-container .content .user-input{
+        background-color: transparent;
+    }
     .home-container .content input{
         width:55%;
         height: 4rem;
