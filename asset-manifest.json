@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/D2C/static/css/main.dcda0a4a.css",
+    "main.css": "/D2C/static/css/main.a14e27b8.css",
     "main.js": "/D2C/static/js/main.6a3675f8.js",
     "static/media/EVENTS 1.3.png": "/D2C/static/media/EVENTS 1.3.db6c15bb0eb7cabb52a2.png",
     "static/media/EVENTS 1.2.png": "/D2C/static/media/EVENTS 1.2.49f10270b13a168cbfa1.png",
@@ -39,11 +39,11 @@
     "static/media/Soccer for Kids.jpeg": "/D2C/static/media/Soccer for Kids.649a40ab791bcab7902c.jpeg",
     "static/media/Color-Run.jpeg": "/D2C/static/media/Color-Run.805c408afdf9ae4139a1.jpeg",
     "index.html": "/D2C/index.html",
-    "main.dcda0a4a.css.map": "/D2C/static/css/main.dcda0a4a.css.map",
+    "main.a14e27b8.css.map": "/D2C/static/css/main.a14e27b8.css.map",
     "main.6a3675f8.js.map": "/D2C/static/js/main.6a3675f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcda0a4a.css",
+    "static/css/main.a14e27b8.css",
     "static/js/main.6a3675f8.js"
   ]
 }
